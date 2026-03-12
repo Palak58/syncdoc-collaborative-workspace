@@ -1,35 +1,79 @@
 
 # SyncDoc – AI Powered Collaborative Workspace
+A real-time collaborative document editor that allows multiple users to edit documents simultaneously, communicate through live chat, and receive AI-powered insights.
 
-This is a starter project for the Full Stack Engineering Assignment.
+This project demonstrates a full-stack architecture using modern web technologies such as React, Node.js, and Socket.IO.
+
 
 ## Features
-- Real-time collaborative editor
-- Live chat using Socket.io
-- Node.js backend
-- React frontend
+Real-Time Document Editing
+
+Multiple users can edit the same document simultaneously. Changes appear instantly for all users.
+
+Live Chat System
+
+Users can communicate while editing documents through a real-time chat interface.
+
+AI Assistance
+
+Integrated AI tools help with:
+
+Document summarization
+
+Grammar and tone correction
+
+File Sharing
+
+Users can upload files directly in the workspace for collaboration.
+
+Responsive UI
+
+Clean and modern interface designed for usability and collaboration.
 
 ## Tech Stack
-Frontend: React
-Backend: Node.js + Express
-Realtime: Socket.io
+Frontend
 
-## Run Backend
+React
 
-cd backend
-npm install
-npm start
+JavaScript
 
-Server runs on:
-http://localhost:5000
+Socket.IO Client
 
-## Run Frontend
+Backend
 
-Use create-react-app or integrate App.js in a React project.
+Node.js
 
-## Submission
+Express
 
-Upload this project to GitHub and include:
+Socket.IO
 
-- Live hosted link
-- Documentation
+Version Control
+
+Git
+
+GitHub
+
+## How It Works
+1 User connects to the application
+
+The frontend connects to the backend server using Socket.IO.
+
+2 Document session starts
+
+Users join a specific document room identified by a document ID.
+
+3 Real-time updates
+
+When a user edits the document:
+
+The update is sent to the server.
+
+The server broadcasts the change to all users in the same document room.
+
+4 Chat communication
+
+Chat messages are sent to the server and broadcast to all active collaborators.
+
+## Author
+
+Palak Jain
