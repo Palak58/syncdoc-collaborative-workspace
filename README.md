@@ -31,27 +31,20 @@ Responsive UI
 Clean and modern interface designed for usability and collaboration.
 
 ## Tech Stack
-Frontend
 
-React
+### Frontend
+- **React**
+- **JavaScript**
+- **Socket.IO Client**
 
-JavaScript
+### Backend
+- **Node.js**
+- **Express**
+- **Socket.IO**
 
-Socket.IO Client
-
-Backend
-
-Node.js
-
-Express
-
-Socket.IO
-
-Version Control
-
-Git
-
-GitHub
+### Version Control
+- **Git**
+- **GitHub**
 
 ## How It Works
 1 User connects to the application
