@@ -46,8 +46,7 @@ Clean and modern interface designed for usability and collaboration.
 - **Git**
 - **GitHub**
 
-- 
-## How It Works
+  ## How It Works
 
 ### 1. User Connects to the Application
 When a user opens the application, the frontend establishes a connection with the backend server using **Socket.IO**.
@@ -67,5 +66,4 @@ Users can communicate through the chat panel:
 - The server broadcasts the message to all active collaborators in the document session.
 
 ## Author
-
 ## Palak Jain
