@@ -6,27 +6,27 @@ This project demonstrates a full-stack architecture using modern web technologie
 
 
 ## Features
-### Real-Time Document Editing
+### 1. Real-Time Document Editing
 
 Multiple users can edit the same document simultaneously. Changes appear instantly for all users.
 
-### Live Chat System
+### 2. Live Chat System
 
 Users can communicate while editing documents through a real-time chat interface.
 
-### AI Assistance
+### 3. AI Assistance
 
 Integrated AI tools help with:
 
-### Document summarization
+### 4. Document summarization
 
 Grammar and tone correction
 
-### File Sharing
+### 5.File Sharing
 
 Users can upload files directly in the workspace for collaboration.
 
-### Responsive UI
+### 6. Responsive UI
 
 Clean and modern interface designed for usability and collaboration.
 
@@ -64,6 +64,17 @@ When a user edits the document:
 Users can communicate through the chat panel:
 - Messages are sent to the server.
 - The server broadcasts the message to all active collaborators in the document session.
+  ## Syncdoc-project
+│
+├── backend
+│ ├── server.js
+│ └── package.json
+│
+├── frontend
+│ ├── App.js
+│ └── package.json
+│
+└── README.md
 
 ## Author
 ## Palak Jain
