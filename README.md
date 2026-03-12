@@ -6,27 +6,27 @@ This project demonstrates a full-stack architecture using modern web technologie
 
 
 ## Features
-Real-Time Document Editing
+### Real-Time Document Editing
 
 Multiple users can edit the same document simultaneously. Changes appear instantly for all users.
 
-Live Chat System
+### Live Chat System
 
 Users can communicate while editing documents through a real-time chat interface.
 
-AI Assistance
+### AI Assistance
 
 Integrated AI tools help with:
 
-Document summarization
+### Document summarization
 
 Grammar and tone correction
 
-File Sharing
+### File Sharing
 
 Users can upload files directly in the workspace for collaboration.
 
-Responsive UI
+### Responsive UI
 
 Clean and modern interface designed for usability and collaboration.
 
@@ -46,27 +46,26 @@ Clean and modern interface designed for usability and collaboration.
 - **Git**
 - **GitHub**
 
+- 
 ## How It Works
-1 User connects to the application
 
-The frontend connects to the backend server using Socket.IO.
+### 1. User Connects to the Application
+When a user opens the application, the frontend establishes a connection with the backend server using **Socket.IO**.
 
-2 Document session starts
+### 2. Document Session Starts
+Each document has a unique **Document ID**. When users open a document, they join a specific WebSocket room associated with that document.
 
-Users join a specific document room identified by a document ID.
-
-3 Real-time updates
-
+### 3. Real-Time Updates
 When a user edits the document:
+- The updated content is sent to the server.
+- The server broadcasts the change to all users in the same document room.
+- All collaborators see the update instantly.
 
-The update is sent to the server.
-
-The server broadcasts the change to all users in the same document room.
-
-4 Chat communication
-
-Chat messages are sent to the server and broadcast to all active collaborators.
+### 4. Chat Communication
+Users can communicate through the chat panel:
+- Messages are sent to the server.
+- The server broadcasts the message to all active collaborators in the document session.
 
 ## Author
 
-Palak Jain
+## Palak Jain
